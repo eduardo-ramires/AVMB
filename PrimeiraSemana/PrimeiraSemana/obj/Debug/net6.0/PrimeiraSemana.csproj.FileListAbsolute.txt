@@ -1,0 +1,15 @@
+C:\Users\dudur\source\repos\PrimeiraSemana\PrimeiraSemana\bin\Debug\net6.0\PrimeiraSemana.exe
+C:\Users\dudur\source\repos\PrimeiraSemana\PrimeiraSemana\bin\Debug\net6.0\PrimeiraSemana.deps.json
+C:\Users\dudur\source\repos\PrimeiraSemana\PrimeiraSemana\bin\Debug\net6.0\PrimeiraSemana.runtimeconfig.json
+C:\Users\dudur\source\repos\PrimeiraSemana\PrimeiraSemana\bin\Debug\net6.0\PrimeiraSemana.dll
+C:\Users\dudur\source\repos\PrimeiraSemana\PrimeiraSemana\bin\Debug\net6.0\PrimeiraSemana.pdb
+C:\Users\dudur\source\repos\PrimeiraSemana\PrimeiraSemana\obj\Debug\net6.0\PrimeiraSemana.csproj.AssemblyReference.cache
+C:\Users\dudur\source\repos\PrimeiraSemana\PrimeiraSemana\obj\Debug\net6.0\PrimeiraSemana.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dudur\source\repos\PrimeiraSemana\PrimeiraSemana\obj\Debug\net6.0\PrimeiraSemana.AssemblyInfoInputs.cache
+C:\Users\dudur\source\repos\PrimeiraSemana\PrimeiraSemana\obj\Debug\net6.0\PrimeiraSemana.AssemblyInfo.cs
+C:\Users\dudur\source\repos\PrimeiraSemana\PrimeiraSemana\obj\Debug\net6.0\PrimeiraSemana.csproj.CoreCompileInputs.cache
+C:\Users\dudur\source\repos\PrimeiraSemana\PrimeiraSemana\obj\Debug\net6.0\PrimeiraSemana.dll
+C:\Users\dudur\source\repos\PrimeiraSemana\PrimeiraSemana\obj\Debug\net6.0\refint\PrimeiraSemana.dll
+C:\Users\dudur\source\repos\PrimeiraSemana\PrimeiraSemana\obj\Debug\net6.0\PrimeiraSemana.pdb
+C:\Users\dudur\source\repos\PrimeiraSemana\PrimeiraSemana\obj\Debug\net6.0\PrimeiraSemana.genruntimeconfig.cache
+C:\Users\dudur\source\repos\PrimeiraSemana\PrimeiraSemana\obj\Debug\net6.0\ref\PrimeiraSemana.dll

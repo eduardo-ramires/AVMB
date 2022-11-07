@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "atividade01Vetores/1.0.0": {
+        "runtime": {
+          "atividade01Vetores.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "atividade01Vetores/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
