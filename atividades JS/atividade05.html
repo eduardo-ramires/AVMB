@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <html lang="pt">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+
+        </head>
+        <body id="cor">
+            <p><b>Selecione 2 adicionais:</b></p> 
+                Morango: <input onclick="clicado()" type="checkbox" value="morango"> <br/>
+                Nuttela: <input onclick="clicado()" type="checkbox" value="nuttela"> <br/> 
+                Leite ninho: <input onclick="clicado()" type="checkbox" value="ninho"><br>
+                Leite condensado: <input onclick="clicado()" type="checkbox" value="leiteCondensado"><br/>
+                <button id="botao" >Enviar</button>
+            <script>
+                function clicado(){
+                    var checkBoxes = document.querySelectorAll(".checkbox");
+                    var selecionados = 0;
+                    let botao = document.getElementById("botao")
+                    botao.addEventListener("click", function(e){
+                        e.preventDefault();
+                            checkBoxes.forEach(function(el) {
+
+                                selecionados = 0;
+                            
+                                if(el.checked) {
+                                    selecionados++;
+                                }
+                                
+                                
+                                })
+                    });
+                    console.log(selecionados)
+                    
+                }
+            </script>
+        </body>
+    </html>

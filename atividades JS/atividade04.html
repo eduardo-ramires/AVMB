@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <html lang="pt">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+
+        </head>
+        <body id="cor">
+            <p id="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae molestias placeat sed, pariatur quidem commodi iusto ut expedita deleniti, eaque voluptas, tempore aspernatur. Cumque reprehenderit expedita, dignissimos similique fugiat nam?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fugiat ipsa architecto reiciendis iusto, quis cupiditate laborum minus natus pariatur alias vero eum provident atque error, sit tenetur adipisci asperiores!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore minus non doloremque, eum voluptate impedit magni porro quas sit fugit, quia, harum facere iusto incidunt voluptatum eius nihil sint quidem!
+            </p>
+            <button type="button" id="botao" onclick="clicado()">Sumir texto</button>
+            <script>
+                function clicado(){
+                    var botao = document.getElementById("botao")
+                    if(document.getElementById("paragrafo").style.display == 'none')
+                    {
+                        document.getElementById("paragrafo").style.display='inline-block';
+                        botao.innerText = 'Sumir texto'
+                    }
+                    else{
+                        document.getElementById("paragrafo").style.display='none';
+                        botao.innerText = 'Aparecer texto'
+                    }
+                }
+            </script>
+        </body>
+    </html>

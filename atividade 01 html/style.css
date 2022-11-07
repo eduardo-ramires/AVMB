@@ -1,0 +1,48 @@
+a {
+    color: blue;
+}
+a:hover {
+    color: rgb(255, 81, 0);
+}
+a:visited {
+    color: rgb(255, 196, 0);
+}
+
+.tinto{
+    background-color: darkgoldenrod;
+}
+.branco{
+    text-decoration: none;
+    color: black;
+}
+
+#comum1{
+    float: left;
+    width: 33%;
+}
+
+#comum2{
+    float: left;
+    width: 33%;
+}
+
+#comum3{
+    float: left;
+    width: 33%;
+}
+
+#box1{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+#box2{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+#box3{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}

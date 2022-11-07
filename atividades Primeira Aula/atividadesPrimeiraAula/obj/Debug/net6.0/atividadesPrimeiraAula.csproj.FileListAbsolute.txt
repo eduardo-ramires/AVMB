@@ -1,0 +1,15 @@
+C:\Users\dudur\source\repos\atividadesPrimeiraAula\atividadesPrimeiraAula\bin\Debug\net6.0\atividadesPrimeiraAula.exe
+C:\Users\dudur\source\repos\atividadesPrimeiraAula\atividadesPrimeiraAula\bin\Debug\net6.0\atividadesPrimeiraAula.deps.json
+C:\Users\dudur\source\repos\atividadesPrimeiraAula\atividadesPrimeiraAula\bin\Debug\net6.0\atividadesPrimeiraAula.runtimeconfig.json
+C:\Users\dudur\source\repos\atividadesPrimeiraAula\atividadesPrimeiraAula\bin\Debug\net6.0\atividadesPrimeiraAula.dll
+C:\Users\dudur\source\repos\atividadesPrimeiraAula\atividadesPrimeiraAula\bin\Debug\net6.0\atividadesPrimeiraAula.pdb
+C:\Users\dudur\source\repos\atividadesPrimeiraAula\atividadesPrimeiraAula\obj\Debug\net6.0\atividadesPrimeiraAula.csproj.AssemblyReference.cache
+C:\Users\dudur\source\repos\atividadesPrimeiraAula\atividadesPrimeiraAula\obj\Debug\net6.0\atividadesPrimeiraAula.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dudur\source\repos\atividadesPrimeiraAula\atividadesPrimeiraAula\obj\Debug\net6.0\atividadesPrimeiraAula.AssemblyInfoInputs.cache
+C:\Users\dudur\source\repos\atividadesPrimeiraAula\atividadesPrimeiraAula\obj\Debug\net6.0\atividadesPrimeiraAula.AssemblyInfo.cs
+C:\Users\dudur\source\repos\atividadesPrimeiraAula\atividadesPrimeiraAula\obj\Debug\net6.0\atividadesPrimeiraAula.csproj.CoreCompileInputs.cache
+C:\Users\dudur\source\repos\atividadesPrimeiraAula\atividadesPrimeiraAula\obj\Debug\net6.0\atividadesPrimeiraAula.dll
+C:\Users\dudur\source\repos\atividadesPrimeiraAula\atividadesPrimeiraAula\obj\Debug\net6.0\refint\atividadesPrimeiraAula.dll
+C:\Users\dudur\source\repos\atividadesPrimeiraAula\atividadesPrimeiraAula\obj\Debug\net6.0\atividadesPrimeiraAula.pdb
+C:\Users\dudur\source\repos\atividadesPrimeiraAula\atividadesPrimeiraAula\obj\Debug\net6.0\atividadesPrimeiraAula.genruntimeconfig.cache
+C:\Users\dudur\source\repos\atividadesPrimeiraAula\atividadesPrimeiraAula\obj\Debug\net6.0\ref\atividadesPrimeiraAula.dll

@@ -1,0 +1,68 @@
+body{
+    background-image: url(avmb.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.tabela{
+    border: 1px solid;
+}
+
+#branco{
+    color: white;
+}
+
+li{
+    list-style: none; 
+    margin: 10px;
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.342);
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.option{
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.733);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(0, 0, 0, 0.404);
+}
+
+p, h1, h2, a{
+    color: aliceblue;
+}
+
+.cadastro{
+    margin-top: 10%;
+    background: rgba(0, 0, 0, 0.521);
+    display: inline-block;
+    margin-left: 42%;
+    margin-right: 50%;
+    border-radius: 20px;
+}
+form{
+    margin: 30px;
+}
+
+button{
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+}

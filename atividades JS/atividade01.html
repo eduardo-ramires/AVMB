@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <html lang="pt">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <script>
+
+            </script>
+
+        </head>
+        <body id="cor">
+            <p>Digite seu nome:</p>
+            <input type="text">
+            <button type="button" id="nome" onclick="submit01()">Enviar</button>
+            <br>
+            <p>Digite sua idade:</p>
+            <input type="text">
+            <button type="button" id="idade" onclick="submit02()">Enviar</button>
+            <br>
+            <p>Digite seu sobrenome:</p>
+            <input type="text">
+            <button type="button" id="sobrenome" onclick="submit03()">Enviar</button>
+            <br>
+            <p>Digite seu e-mail:</p>
+            <input type="text">
+            <button type="button" id="email" onclick="submit04()">Enviar</button>
+
+            <script>
+                function submit01(){
+                    document.getElementById('cor').style.backgroundColor = 'red';
+                }
+                function submit02(){
+                    document.getElementById('cor').style.backgroundColor = 'green';
+                }
+                function submit03(){
+                    document.getElementById('cor').style.backgroundColor = 'blue';
+                }
+                function submit04(){
+                    document.getElementById('cor').style.backgroundColor = 'yellow';
+                }
+            </script>
+        </body>
+    </html>
