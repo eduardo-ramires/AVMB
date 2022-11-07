@@ -1,0 +1,15 @@
+C:\Users\eduardo.ramires\source\repos\atividade02Arquivos\bin\Debug\net6.0\atividade02Arquivos.exe
+C:\Users\eduardo.ramires\source\repos\atividade02Arquivos\bin\Debug\net6.0\atividade02Arquivos.deps.json
+C:\Users\eduardo.ramires\source\repos\atividade02Arquivos\bin\Debug\net6.0\atividade02Arquivos.runtimeconfig.json
+C:\Users\eduardo.ramires\source\repos\atividade02Arquivos\bin\Debug\net6.0\atividade02Arquivos.dll
+C:\Users\eduardo.ramires\source\repos\atividade02Arquivos\bin\Debug\net6.0\atividade02Arquivos.pdb
+C:\Users\eduardo.ramires\source\repos\atividade02Arquivos\obj\Debug\net6.0\atividade02Arquivos.csproj.AssemblyReference.cache
+C:\Users\eduardo.ramires\source\repos\atividade02Arquivos\obj\Debug\net6.0\atividade02Arquivos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eduardo.ramires\source\repos\atividade02Arquivos\obj\Debug\net6.0\atividade02Arquivos.AssemblyInfoInputs.cache
+C:\Users\eduardo.ramires\source\repos\atividade02Arquivos\obj\Debug\net6.0\atividade02Arquivos.AssemblyInfo.cs
+C:\Users\eduardo.ramires\source\repos\atividade02Arquivos\obj\Debug\net6.0\atividade02Arquivos.csproj.CoreCompileInputs.cache
+C:\Users\eduardo.ramires\source\repos\atividade02Arquivos\obj\Debug\net6.0\atividade02Arquivos.dll
+C:\Users\eduardo.ramires\source\repos\atividade02Arquivos\obj\Debug\net6.0\refint\atividade02Arquivos.dll
+C:\Users\eduardo.ramires\source\repos\atividade02Arquivos\obj\Debug\net6.0\atividade02Arquivos.pdb
+C:\Users\eduardo.ramires\source\repos\atividade02Arquivos\obj\Debug\net6.0\atividade02Arquivos.genruntimeconfig.cache
+C:\Users\eduardo.ramires\source\repos\atividade02Arquivos\obj\Debug\net6.0\ref\atividade02Arquivos.dll

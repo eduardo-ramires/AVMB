@@ -1,0 +1,15 @@
+C:\Users\dudur\source\repos\atividade01Arquivo\atividade01Arquivo\bin\Debug\net6.0\atividade01Arquivo.exe
+C:\Users\dudur\source\repos\atividade01Arquivo\atividade01Arquivo\bin\Debug\net6.0\atividade01Arquivo.deps.json
+C:\Users\dudur\source\repos\atividade01Arquivo\atividade01Arquivo\bin\Debug\net6.0\atividade01Arquivo.runtimeconfig.json
+C:\Users\dudur\source\repos\atividade01Arquivo\atividade01Arquivo\bin\Debug\net6.0\atividade01Arquivo.dll
+C:\Users\dudur\source\repos\atividade01Arquivo\atividade01Arquivo\bin\Debug\net6.0\atividade01Arquivo.pdb
+C:\Users\dudur\source\repos\atividade01Arquivo\atividade01Arquivo\obj\Debug\net6.0\atividade01Arquivo.csproj.AssemblyReference.cache
+C:\Users\dudur\source\repos\atividade01Arquivo\atividade01Arquivo\obj\Debug\net6.0\atividade01Arquivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dudur\source\repos\atividade01Arquivo\atividade01Arquivo\obj\Debug\net6.0\atividade01Arquivo.AssemblyInfoInputs.cache
+C:\Users\dudur\source\repos\atividade01Arquivo\atividade01Arquivo\obj\Debug\net6.0\atividade01Arquivo.AssemblyInfo.cs
+C:\Users\dudur\source\repos\atividade01Arquivo\atividade01Arquivo\obj\Debug\net6.0\atividade01Arquivo.csproj.CoreCompileInputs.cache
+C:\Users\dudur\source\repos\atividade01Arquivo\atividade01Arquivo\obj\Debug\net6.0\atividade01Arquivo.dll
+C:\Users\dudur\source\repos\atividade01Arquivo\atividade01Arquivo\obj\Debug\net6.0\refint\atividade01Arquivo.dll
+C:\Users\dudur\source\repos\atividade01Arquivo\atividade01Arquivo\obj\Debug\net6.0\atividade01Arquivo.pdb
+C:\Users\dudur\source\repos\atividade01Arquivo\atividade01Arquivo\obj\Debug\net6.0\atividade01Arquivo.genruntimeconfig.cache
+C:\Users\dudur\source\repos\atividade01Arquivo\atividade01Arquivo\obj\Debug\net6.0\ref\atividade01Arquivo.dll
