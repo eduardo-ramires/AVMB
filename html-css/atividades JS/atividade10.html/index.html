@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+    <html lang="pt">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <link rel="stylesheet" href="style.css">
+
+        </head>
+        <body id="cor">
+            <div class="cadastro">
+
+              <!-- data de nascimento -->
+              <div class="formulario">
+                <form method="post" action="" > 
+                    <h1 style="text-align: center;">Cadastro:</h1> 
+                    
+                    <p> 
+                        Nome:
+                        <input style="width: 150px; margin-right:30px ;" id="nome" required="required" type="text" placeholder="Nome..." />
+
+                    <form>
+                        Pessoa:
+                        <input type="radio" id="juridica" value="juridica" onclick=" checkButton01()">
+                        <label for="html">Juridica</label>
+                        <input type="radio" id="fisica" value="fisica" onclick=" checkButton02()">
+                        <label for="css">Fisica</label> 
+                    </form>
+
+                    <p> 
+                        CNPJ:
+                        <input disabled style="width: 150px; margin-right:30px ;" id="cnpj" required="required" type="text" placeholder="CNPJ..." /> 
+                        CPF:
+                        <input disabled style="width: 150px;" class="cpf" required="required" type="text" placeholder="CPF..." />
+                    </p>
+
+                    <p> 
+                        Data de nascimento:
+                        <input disabled style="width: 150px; margin-right: 30px;" class="nascimento" required="required" type="date"/>
+                        Telefone:
+                        <input id="telefone" required="required" type="number" placeholder="Telefone..."/>
+                    </p>
+
+                    <p> 
+                        E-mail:
+                        <input style="width: 150px; margin-right: 30px;" id="email" required="required" type="text" placeholder="E-mail..." />
+                        Endereço:
+                        <input style="width: 150px;" id="endereco" required="required" type="text" placeholder="Endereço..." />
+                    </p>
+                    
+                    <p> 
+                        Cep:
+                        <input id="cep" required="required" type="text" placeholder="Cep..."/> 
+                    </p>
+                    
+                    <button onclick="clicado()" id="enviar">Enviar</button>
+                </form>
+              </div>
+                
+              </div>
+        <script src="js.js"></script>
+        </body>
+    </html>

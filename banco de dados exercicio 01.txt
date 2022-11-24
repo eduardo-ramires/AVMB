@@ -1,0 +1,63 @@
+create table editora(
+id integer constraint const_pk_editora primary key,
+	nome varchar(30)
+);
+
+create table categoria(
+id serial constraint const_pk_categoria primary key,
+	tipo_categoria varchar(30)
+);
+create table autor(
+	id integer constraint const_pk_autor primary key,
+	nome varchar(30),
+	nacionalidade varchar(30)
+);
+create table livro_autor(
+	id integer constraint const_pk_livro_autor primary key,
+	fk_livro integer,
+	fk_autor integer,
+	foreign key(fk_livro) references  livro(isbn),
+	foreign key(fk_autor) references  autor(id)
+);
+create table livro(
+	isbn integer constraint const_pk_livro primary key,
+	titulo varchar(30),
+	ano_publicado date,
+	fk_editora integer,
+	fk_categoria integer,
+	foreign key(fk_editora) references  editora(id),
+	foreign key(fk_categoria) references  categoria(id)
+);
+
+
+insert into categoria(tipo_categoria) values('Literatura juvenil')
+insert into categoria(tipo_categoria) values('Ficção cientifica');
+insert into categoria(tipo_categoria) values('Humor');
+
+select * from categoria
+
+select * from categoria
+
+insert into autor values(2, 'Clive', 'inglaterra');
+insert into autor values(3, 'afonso', 'brasil');
+insert into autor values(4, 'marcos', 'brasil');
+insert into autor values(5, 'ciro', 'brasil');
+insert into autor values(6, 'bianca ', 'brasil')
+select * from editora
+
+insert into editora values (3, 'Casa da palavra');
+insert into editora values (2, 'wmf martin');
+insert into editora values (4, 'Belas letras');
+insert into editora values (5, 'matrix');
+
+
+
+insert into livro values ('87468', 'cronicas de narnia', '2009-01-22', 2 , 1);
+insert into livro values ('52774', 'espada chim de carvão', '20013-01-22', 3 , 2);
+insert into livro values ('28485', 'o papai é top', '2015-01-22', 4 , 3);
+insert into livro values ('83685', 'pior que ta não fica', '2015-01-22', 5 , 3);
+insert into livro values ('87889', 'garota desdobravel', '2015-01-22', 5 , 1);
+insert into livro values ('87213', 'harry potter A', '2000-01-22', 1 , 1)
+
+select * from livro
+

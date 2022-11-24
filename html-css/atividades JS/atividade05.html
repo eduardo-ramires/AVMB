@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+    <html lang="pt">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+
+        </head>
+        <body id="cor">
+            <p><b>Selecione 2 adicionais:</b></p> 
+                <form action="">Morango: <input type="radio" name="checkbox" onclick="verificarCheckBox()"></form>
+                <form action="">Nuttela:<input type="radio" name="checkbox" onclick="verificarCheckBox()"></form>
+                <form action="">Leite condensado:<input type="radio" name="checkbox" onclick="verificarCheckBox()"></form>
+                <form action="">Banana:<input type="radio" name="checkbox" onclick="verificarCheckBox()"></form><br>
+                <button id="botao" disabled>Enviar</button>
+            <script>
+                function verificarCheckBox() {
+                var check = document.getElementsByName("checkbox");
+                var cont = 0;
+                var botao = document.getElementById("botao")
+                botao.disabled = true;
+
+                for (var i=0;i<check.length;i++){ 
+                    if (check[i].checked == true){ 
+                        cont++;
+                    }
+                }
+
+                if (cont > 1){
+                    botao.disabled = false;
+                }
+                cont = 0;
+            }
+            </script>
+        </body>
+    </html>

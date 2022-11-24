@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <html lang="pt">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <link rel="stylesheet" href="style.css">
+            <script>
+              function clicado(){
+                var senha = document.getElementById("senha").value;
+                var confSenha = document.getElementById("confsenha").value;
+                if (senha == confSenha){
+                  document.getElementById('enviar').submit();
+                }
+                else{
+                  alert("Verificar senha")
+                }
+              }
+
+            </script>
+
+        </head>
+        <body id="cor">
+            <div id="cadastro">
+                <form method="post" action=""> 
+                  <h1>Login:</h1> 
+                   
+                  <p> 
+                    <input style="width: 150px;" id="login" required="required" type="text" placeholder="Login..." />
+                  </p>
+                   
+                  <p> 
+                    <input style="width: 150px;" size="6" minlength="6" maxlength="10" id="senha" required="required" type="password" placeholder="Senha..."/> 
+                  </p>
+                   
+                  <p> 
+                    <input style="width: 150px;" size="6" min="6" maxlength="10" id="confSenha" required="required" type="password" placeholder="Confirme a senha..."/>
+                  </p>
+                  <button onclick="clicado()">Enviar</button>
+                </form>
+              </div>
+        
+        </body>
+    </html>

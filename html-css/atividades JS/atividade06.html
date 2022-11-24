@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+    <html lang="pt">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+
+        </head>
+        <body id="cor">
+            <div >
+                <style>
+                    #paragrafo{
+                        font-size: 15px;
+                    }
+                </style>
+                <p id="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae molestias placeat sed, pariatur quidem commodi iusto ut expedita deleniti, eaque voluptas, tempore aspernatur. Cumque reprehenderit expedita, dignissimos similique fugiat nam?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fugiat ipsa architecto reiciendis iusto, quis cupiditate laborum minus natus pariatur alias vero eum provident atque error, sit tenetur adipisci asperiores!
+                    Lorem ipsum dolor sit amet,The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content.
+    
+                    The passage experienced a surgeLorem ipsum dolor sit amet consectetur adipisicing elit. Vitae molestias placeat sed, pariatur quidem commodi iusto ut expedita deleniti, eaque voluptas, tempore aspernatur. Cumque reprehenderit expedita, dignissimos similique fugiat nam?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fugiat ipsa architecto reiciendis iusto, quis cupiditate laborum minus natus pariatur alias vero eum provident atque error, sit tenetur adipisci asperiores!
+                    Lorem ipsum dolor sit amet,The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content.
+    
+                    The passage experienced a surgeLorem ipsum dolor sit amet consectetur adipisicing elit. Vitae molestias placeat sed, pariatur quidem commodi iusto ut expedita deleniti, eaque voluptas, tempore aspernatur. Cumque reprehenderit expedita, dignissimos similique fugiat nam?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fugiat ipsa architecto reiciendis iusto, quis cupiditate laborum minus natus pariatur alias vero eum provident atque error, sit tenetur adipisci asperiores!
+                    Lorem ipsum dolor sit amet,The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content.
+    
+                    The passage experienced a surgeLorem ipsum dolor sit amet consectetur adipisicing elit. Vitae molestias placeat sed, pariatur quidem commodi iusto ut expedita deleniti, eaque voluptas, tempore aspernatur. Cumque reprehenderit expedita, dignissimos similique fugiat nam?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fugiat ipsa architecto reiciendis iusto, quis cupiditate laborum minus natus pariatur alias vero eum provident atque error, sit tenetur adipisci asperiores!
+                    Lorem i</p>
+            </div>
+            <div style="text-align: center;">
+                <button onclick="cortxt01()">Cor azul de texto</button>
+                <button onclick="cortxt02()">Cor vermelha de texto</button>
+                <button onclick="corfundo01()">Cor azul de fundo</button>
+                <button onclick="corfundo02()">Cor vermelha de fundo</button>
+                <button onclick="mais()">+</button>
+                <button onclick="menos()">-</button>
+                <button onclick="maiusculo()">Fonte maiuscula</button>
+                <button onclick="minusculo()">Fonte minusculo</button>
+                
+            </div>
+            <script>
+                function cortxt01(){
+                    if(document.getElementById("paragrafo").style.color != 'blue')
+                    {
+                        document.getElementById("paragrafo").style.color = 'blue';
+                    }
+                    else{
+                        alert("A cor ja esta azul")
+                    }
+                }
+                function cortxt02(){
+                    if(document.getElementById("paragrafo").style.color != 'red')
+                    {
+                        document.getElementById("paragrafo").style.color = 'red';
+                    }
+                    else{
+                        alert("A cor ja esta vermelha")
+                    }
+                }
+                function corfundo01(){
+                    if(document.getElementById("cor").style.backgroundColor != 'blue')
+                    {
+                        document.getElementById("cor").style.backgroundColor = 'blue';
+                    }
+                    else{
+                        alert("A cor ja esta azul")
+                    }
+                }
+                function corfundo02(){
+                    if(document.getElementById("cor").style.backgroundColor != 'red')
+                    {
+                        document.getElementById("cor").style.backgroundColor = 'red';
+                    }
+                    else{
+                        alert("A cor ja esta vermelha")
+                    }
+                }
+                var font = 15
+                function mais(){
+                    font++;
+                    var aumento = font + "px"
+                    document.getElementById("paragrafo").style.fontSize = (aumento);
+                    
+                }
+                function menos(){
+                    font--;
+                    var aumento = font + "px"
+                    document.getElementById("paragrafo").style.fontSize = (aumento);
+                    
+                }
+                function maiusculo(){
+                    document.getElementById("paragrafo").style="text-transform: uppercase"
+                }
+                function minusculo(){
+                    document.getElementById("paragrafo").style="text-transform: lowercase"
+                }
+            </script>
+        </body>
+    </html>

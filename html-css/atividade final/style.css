@@ -1,0 +1,15 @@
+.corPersonalizada{
+    background-color: rgba(88, 88, 88, 0.247);
+}
+
+.img{
+    height: 100px;
+}
+
+@media  (min-width: 970px) {
+    .img{
+        height: 170px;
+        border: 1px solid transparent;
+        border-radius: 30px;
+    }
+  }

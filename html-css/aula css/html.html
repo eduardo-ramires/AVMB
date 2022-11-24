@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+    <html lang="pt">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <script>
+                /*let x = "x"
+                var valor = 1;
+
+                if (valor>0){
+                    let x  = "y";
+                    alert(x);
+                }
+                alert(x)
+
+
+
+                var num = 1;
+
+                if(num == "1"){
+                    alert("== compara apenas os valores");
+                }
+
+                var mensagem;
+                if(numero === "1"){
+                    mensagem ="nunca executa"
+                }
+                else {
+                    mensagem = "number é diferente de string com o ==="
+                }
+
+                var x = (numero ==="1") ? "Nunca executa" : "Number é diferente de string com o ===";
+
+
+
+                var pessoas = ["Joao", "Jose", "Maria", "Sebastao", "Anthony"];
+
+                for (var i = 0; i < pessoas.length; i++){
+                    alert(pessoas[i]);
+                }
+
+
+
+                var nome = "";
+                var pessoa = {nome:"Iara", sobrenome:"Almeida"};
+
+                for (x in pessoa){
+                    nome += pessoa[x] + " ";
+                }
+                alert(nome);
+
+
+
+                var resultado = "";
+                var numero = 1;
+                do{
+                    resultado += numero + " ";
+                    numero++;
+                }while (numero<=10);
+                alert(resultado); */
+
+
+
+                //exercicio 01 escreva um codigo que mostre os numeros impares entre 1 e 10
+
+                /*var num = 1;
+
+                while(num<11){
+                    if(num % 2 != 0){
+                        alert(num);
+                    }
+                    num ++;
+                }*/
+
+
+
+
+                //exercicio 02 escreva um codigo que calcule a soma de 1 ate 100
+
+                /*var num = 1;
+                var soma = 0;
+
+                while(num<101){
+                    soma = num + soma;
+                    num++;
+                }
+                alert(soma);*/
+
+
+
+                /*function minhaFuncao()
+                {
+                    var x = document.getElementById("nome")
+                    x.value = x.value.toUpperCase();
+                }*/
+
+            </script>
+
+        </head>
+        <body>
+
+            <!--<input type="text" id="nome" onfocusout="minhaFuncao()">-->
+            <!--Exercicio 1 e 2 
+            <input type="text" id="nome">
+            <br>
+            <input type="number" id="idade">
+            <button type="button" onclick="juntaNome()">Enviar</button>
+            <script>
+                function juntaNome(){
+                    var nome = document.getElementById("nome")
+                    var idade = document.getElementById("idade")
+                    if(idade.value<=17){
+                            alert(nome.value + " Tem " + idade.value + " Anos, ele é menor de idade");
+                    }
+                    if(idade.value>=18){
+                            alert(nome.value + " Tem " + idade.value + " Anos, ele é maior de idade");
+                    }
+                }
+
+            </script>-->
+
+            <!--exercicio 03 -->
+            <input type="text" id="num1">
+            <br>
+            <input type="text" id="num2">
+            <button id="cor" type="button" onclick="funcSoma()">Enviar</button>
+
+            <script>
+                function funcSoma(){
+                    var num1 = document.getElementById("num1").value;
+                    var num2 = document.getElementById("num2").value;
+                    var conv1 = parseInt(num1);
+                    var conv2 = parseInt(num2);
+                    var soma = conv1 + conv2;
+
+                    if (soma%2 == 0){
+                        document.getElementById('cor').style.backgroundColor = 'blue';
+                    }
+                    if (soma%2 != 0){
+                            document.getElementById('cor').style.backgroundColor = 'green';
+                        }
+
+                    alert(soma);
+                    }
+
+                    
+            </script>
+
+
+
+
+
+
+        </body>
+    </html>
